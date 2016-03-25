@@ -17,8 +17,8 @@
       "path": "data/continent-codes.csv",
       "description": "continent codes",
       "sources": [{
-        "name": "Home Price Index Levels",
-        "web": "http://www.spindices.com/documents/additionalinfo/20140826-107542/107542_cshomeprice-history-0826.xls?force_download=true"
+        "name": "N/A",
+        "web": "N/A"
       }],
       "schema": {
         "fields": [
