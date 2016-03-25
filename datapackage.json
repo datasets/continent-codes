@@ -1,0 +1,30 @@
+{
+  "name": "Continent codes",
+  "title": "List of continent codes",
+  "descriptions": "Data contains list of continents ad it's two letter codes",
+  "licenses" : [
+    {
+      "type": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "Continents", "Two letter code", "Continent codes", "Continent code list" ],
+  "version": "0.1.0",
+  "last_updated": "2016-03-25",
+  "resources": [
+    {
+      "schema": {
+        "fields": [
+          {
+            "name": "Code",
+            "type": "string"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+		]
+      }
+    },
+  ]
+}
