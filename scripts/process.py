@@ -12,7 +12,7 @@ CONTINENTS = {'AF': 'Africa',
 				'SA': 'South America'}
 				
 def process():
-	'''writes  continen and it's code to csv file
+	'''writes  continent and it's code to csv file
 	
 	returns None
 	'''
