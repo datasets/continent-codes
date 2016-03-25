@@ -11,14 +11,15 @@ CONTINENTS = {'AF': 'Africa',
 				'OC': 'Oceania',
 				'SA': 'South America'}
 				
-
 def process():
-	'''
+	'''writes  continen and it's code to csv file
 	
+	returns None
 	'''
 	filename = 'continent-codes'
 	if not os.path.exists('data'):
 		os.makedirs('data')
+		
 	with open('data/' + filename, 'w') as working_file:
 		csvwriter = csv.writer(working_file)
 		header = ['Code','Name']
