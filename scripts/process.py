@@ -16,7 +16,7 @@ def process():
 	'''
 	
 	'''
-	filename = 'continent_codes'
+	filename = 'continent-codes'
 	if not os.path.exists('data'):
 		os.makedirs('data')
 	with open('data/' + filename, 'w') as working_file:
