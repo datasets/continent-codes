@@ -22,7 +22,7 @@
           {
             "name": "Name",
             "type": "string"
-          },
+          }
 		]
       }
     }
