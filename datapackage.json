@@ -1,7 +1,7 @@
 {
-  "name": "Continent codes",
+  "name": "continent-codes",
   "title": "List of continent codes",
-  "descriptions": "Data contains list of continents ad it's two letter codes",
+  "descriptions": "Data contains list of continents and it's two letter codes",
   "licenses" : [
     {
       "type": "odc-pddl",
@@ -13,6 +13,10 @@
   "last_updated": "2016-03-25",
   "resources": [
     {
+	  "name": "continents",
+      "path": "data/continent-codes.csv",
+      "description": "continent codes",
+      "sources": "N/A",
       "schema": {
         "fields": [
           {
