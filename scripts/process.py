@@ -22,6 +22,7 @@ def process():
 	with open('data/' + filename, 'w') as working_file:
 		csvwriter = csv.writer(working_file)
 		header = ['Code','Name']
+		csvwriter.writerow(header)
 		for continent in CONTINENTS:
 			csvwriter.writerow([continent, CONTINENTS[continent]])
 						
