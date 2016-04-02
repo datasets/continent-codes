@@ -1,3 +1,5 @@
+A list of the seven continents with English names and short, unique and permanent identifying codes.
+
 ## Data
 
 Data provides list of continents with their two letter codes. 
