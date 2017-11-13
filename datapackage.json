@@ -17,7 +17,7 @@
       "path": "data/continent-codes.csv",
       "description": "continent codes",
       "sources": [{
-        "name": "N/A",
+        "title": "N/A",
         "web": "N/A"
       }],
       "schema": {
