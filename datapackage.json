@@ -9,12 +9,17 @@
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
-  "keywords": [ "Continents", "Two letter code", "Continent codes", "Continent code list" ],
+  "keywords": [
+    "Continents",
+    "Two letter code",
+    "Continent codes",
+    "Continent code list"
+  ],
   "version": "0.1.0",
   "last_updated": "2016-03-25",
   "resources": [
     {
-	    "name": "continent-codes",
+      "name": "continent-codes",
       "path": "data/continent-codes.csv",
       "description": "continent codes",
       "sources": [
@@ -33,7 +38,7 @@
             "name": "Name",
             "type": "string"
           }
-		    ]
+        ]
       }
     }
   ],
@@ -42,25 +47,38 @@
       "title": "Country list",
       "path": "/core/country-list",
       "publisher": "core",
-      "formats": ["CSV", "JSON"]
+      "formats": [
+        "CSV",
+        "JSON"
+      ]
     },
     {
       "title": "Country codes",
       "path": "/core/country-codes",
       "publisher": "core",
-      "formats": ["CSV", "JSON"]
+      "formats": [
+        "CSV",
+        "JSON"
+      ]
     },
     {
       "title": "Airport codes",
       "path": "/core/airport-codes",
       "publisher": "core",
-      "formats": ["CSV", "JSON"]
+      "formats": [
+        "CSV",
+        "JSON"
+      ]
     },
     {
       "title": "Language codes",
       "path": "/core/language-codes",
       "publisher": "core",
-      "formats": ["CSV", "JSON"]
+      "formats": [
+        "CSV",
+        "JSON"
+      ]
     }
-  ]
+  ],
+  "collection": "reference-data"
 }
