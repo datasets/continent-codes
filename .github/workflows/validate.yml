@@ -1,0 +1,19 @@
+name: Validate datapackage
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install frictionless
+        run: pip install frictionless
+
+      - name: Validate datapackage
+        run: frictionless validate datapackage.json
