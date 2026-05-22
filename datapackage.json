@@ -1,12 +1,34 @@
 {
   "name": "continent-codes",
   "title": "List of continent codes",
-  "descriptions": "Data contains list of continents and it's two letter codes",
+  "description": "Two-letter codes and English names for the seven continents (Africa, Antarctica, Asia, Europe, North America, Oceania, South America). Data was compiled manually from multiple reference sources.",
   "licenses": [
     {
       "name": "ODC-PDDL-1.0",
-      "path": "http://opendatacommons.org/licenses/pddl/",
+      "path": "https://opendatacommons.org/licenses/pddl/",
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "GeoNames country codes",
+      "path": "https://www.geonames.org/countries/",
+      "title": "GeoNames geographical database — country codes"
+    },
+    {
+      "name": "IAU WGPSN Abbreviations",
+      "path": "https://planetarynames.wr.usgs.gov/Abbreviations",
+      "title": "International Astronomical Union Working Group for Planetary System Nomenclature — Abbreviations"
+    },
+    {
+      "name": "Wikipedia data file",
+      "path": "https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent_%28data_file%29",
+      "title": "Wikipedia — List of sovereign states and dependent territories by continent (data file)"
+    },
+    {
+      "name": "PHP geoip_continent_code_by_name",
+      "path": "https://www.php.net/manual/en/function.geoip-continent-code-by-name.php",
+      "title": "PHP documentation — geoip_continent_code_by_name()"
     }
   ],
   "keywords": [
@@ -21,22 +43,18 @@
     {
       "name": "continent-codes",
       "path": "data/continent-codes.csv",
-      "description": "continent codes",
-      "sources": [
-        {
-          "title": "N/A",
-          "path": "N/A"
-        }
-      ],
+      "description": "Two-letter codes and English names for the seven continents. Each row represents one continent. Codes are short, unique, permanent identifiers used across geographic reference systems.",
       "schema": {
         "fields": [
           {
             "name": "Code",
-            "type": "string"
+            "type": "string",
+            "description": "Two-letter continent code (e.g. AF for Africa, EU for Europe)."
           },
           {
             "name": "Name",
-            "type": "string"
+            "type": "string",
+            "description": "English name of the continent (e.g. Africa, Europe)."
           }
         ]
       }
