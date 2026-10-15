@@ -38,14 +38,13 @@
     "Continent code list"
   ],
   "version": "0.1.0",
-  "last_updated": "2016-03-25",
   "resources": [
     {
       "name": "continent-codes",
       "path": "data/continent-codes.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Two-letter codes and English names for the seven continents. Each row represents one continent. Codes are short, unique, permanent identifiers used across geographic reference systems.",
+      "description": "Two-letter codes and English names for the seven continents. Each row represents one continent. Codes are short, unique identifiers.",
       "schema": {
         "fields": [
           {
