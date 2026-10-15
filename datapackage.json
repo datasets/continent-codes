@@ -5,8 +5,8 @@
   "licenses": [
     {
       "name": "ODC-PDDL-1.0",
-      "path": "https://opendatacommons.org/licenses/pddl/",
-      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+      "path": "https://opendatacommons.org/licenses/pddl/1.0/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0. Covers the maintainers' own work (the selection and the file). The sources have their own terms; credits are in ATTRIBUTION.txt."
     }
   ],
   "sources": [

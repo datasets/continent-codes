@@ -1,0 +1,13 @@
+Attribution for continent-codes
+
+Contains information from GeoNames (https://www.geonames.org/countries/), licensed under Creative Commons Attribution (CC BY; https://creativecommons.org/licenses/by/4.0/). GeoNames does not state a version number. Terms: https://www.geonames.org/export/
+
+Contains information from the PHP Manual, function geoip_continent_code_by_name (https://www.php.net/manual/en/function.geoip-continent-code-by-name.php), licensed under Creative Commons Attribution 3.0 or later (https://creativecommons.org/licenses/by/3.0/). Terms: https://www.php.net/manual/en/copyright.php
+
+Contains information from the IAU Working Group for Planetary System Nomenclature, Abbreviations (https://planetarynames.wr.usgs.gov/Abbreviations), hosted by the U.S. Geological Survey. USGS-authored content is U.S. public domain. Credit: U.S. Geological Survey, Department of the Interior.
+
+Contains information from the Wikipedia article "List of sovereign states and dependent territories by continent (data file)" (https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent_%28data_file%29), licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/). Credit given as a courtesy. Only seven facts (the codes and names) were used.
+
+Changes made to the source data: no file or table was copied. A hand-made list of 7 continent codes (AF, AN, AS, EU, NA, OC, SA) and their English names was typed into data/continent-codes.csv and checked against the sources above.
+
+Not endorsed by, or affiliated with, GeoNames, the USGS, the IAU, Wikipedia or the PHP Group.
