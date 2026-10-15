@@ -43,19 +43,24 @@
     {
       "name": "continent-codes",
       "path": "data/continent-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
       "description": "Two-letter codes and English names for the seven continents. Each row represents one continent. Codes are short, unique, permanent identifiers used across geographic reference systems.",
       "schema": {
         "fields": [
           {
             "name": "Code",
             "type": "string",
-            "description": "Two-letter continent code (e.g. AF for Africa, EU for Europe)."
+            "description": "Two-letter continent code (e.g. AF for Africa, EU for Europe). Unique. Note: the code for North America is the string \"NA\", which some readers (for example pandas by default) turn into a missing value."
           },
           {
             "name": "Name",
             "type": "string",
             "description": "English name of the continent (e.g. Africa, Europe)."
           }
+        ],
+        "primaryKey": [
+          "Code"
         ]
       }
     }
